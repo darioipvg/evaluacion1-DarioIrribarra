@@ -2,9 +2,16 @@
 @{
     ViewBag.Title = "Nuestros Clientes";
 }
-
-<h2>MostrarDatos</h2>
 <div>
-    @Html.Raw(ViewData["listarClientes"]);
+    <!--@Html.Raw(ViewData["listarClientes"]);-->
+    <div class="container contact-form">
+        <div class="contact-image">
+            <img src="~/Images/logo2_r.png" alt="wifi_logo" />
+        </div>
+        <form>
+            <h3>¡Verifique su información!</h3>
+            @Html.Raw(ViewData["listarClientes"])
+        </form>
+    </div>
 </div>
 

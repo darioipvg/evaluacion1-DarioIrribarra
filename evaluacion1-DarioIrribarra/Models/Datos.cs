@@ -28,7 +28,7 @@ namespace evaluacion1_DarioIrribarra.Models
                 "<br>Comentario: " + d.comentario +
                 "<br>Plan Contratado: " + d.plan +
                 "<br>Precio Plan: " + d.precio_plan +
-                "<br>"
+                "<hr>"
                 );
             sw.Close();
         }
