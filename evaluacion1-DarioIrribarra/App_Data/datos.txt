@@ -1,0 +1,1 @@
+﻿Run Cliente: 11111<br>Nombre Cliente: nombre<br>Teléfono: telefono<br>Dirección: direccion<br>Comentario: comentario<br>Plan Contratado: S<br>Precio Plan: $15.990<br>
